@@ -22,6 +22,7 @@ setInterval(function(){
             break;
         case x = 4:
             heart.style.color = "green";
+            xBox.style.transform = 'rotate(90deg)';
 
             break;
         case x = 5:
@@ -42,15 +43,14 @@ setInterval(function(){
 window.addEventListener('load', (event) => {
     
     let heart = document.getElementById('heart');
-    console.log(document.getElementById('heart'));
-    
+    // let xBox = document.getElementById('x-box');
+    // let yBox = document.getElementById('y-box');
+    // let zBox = document.getElementById('z-box');
     heart.style.color = "magenta";
 
 
 
-
 });
-
 
 
 

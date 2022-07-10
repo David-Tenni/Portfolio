@@ -1,1 +1,23 @@
 backkgrobody {background-color: coral;}
+.heart-grid {
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+}
+#z-box{
+  transform: rotate(0deg);
+}
+h1 {
+    display: flex;
+    justify-content: center;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #AAA;
+}
