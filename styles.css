@@ -7,7 +7,7 @@ backkgrobody {background-color: coral;}
 #z-box{
   transform: rotate(0deg);
 }
-h1 {
+.inner-heart {
     display: flex;
     justify-content: center;
 }
