@@ -7,9 +7,9 @@ backkgrobody {background-color: coral;}
 #z-box{
   transform: rotate(0deg);
 }
-.inner-heart {
-    display: flex;
-    justify-content: center;
+#inner-heart {
+  display: flex;
+  justify-content: center;
 }
 body {
   display: flex;
@@ -34,3 +34,4 @@ a.heart-button {
   background-image: url("/pix/melbourne.jpg");
   background-size: cover;
 }
+
