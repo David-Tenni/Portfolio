@@ -1,37 +1,24 @@
-backkgrobody {background-color: coral;}
-.heart-grid {
-    display: grid;
-    grid-template-rows: 200px 200px 200px;
-    grid-template-columns: 200px 200px 200px;
-}
-#z-box{
-  transform: rotate(0deg);
-}
-#inner-heart {
-  display: flex;
-  justify-content: center;
-}
-body {
-  display: flex;
-  justify-content: center;
-}
-.box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #AAA;
-}
-a.heart-button {
-  -webkit-appearance: button;
-  -moz-appearance: button;
-  appearance: button;
-
-  text-decoration: none;
-  color: initial;
+.jumby {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: rgb(242, 149, 89);
+  border-radius: .3rem;
 }
 
-.jumbotron {
-  background-image: url("/pix/melbourne.jpg");
-  background-size: cover;
+section {
+  height: 600px;
+  background-color: rgb(242, 212, 146);
+
 }
 
+
+
+
+.colour-pallet{
+  background-color: rgb(32, 44, 57);
+  background-color: rgb(40, 56, 69);
+  background-color: rgb(184, 176, 141);
+  background-color: rgb(242, 212, 146);
+  background-color: rgb(242, 149, 89);
+
+}
