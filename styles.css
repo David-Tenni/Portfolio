@@ -4,15 +4,34 @@
   background-color: rgb(242, 149, 89);
   border-radius: .3rem;
 }
-
-section {
-  height: 600px;
+.traits-title{
+color: rgb(242, 212, 146);
+}
+.info-title{
+  color: rgb(40, 56, 69);
+}
+section{
+  height: 450px;
+}
+#section-top {
   background-color: rgb(242, 212, 146);
 
 }
+#section-mid {
+  background-color: rgb(40, 56, 69);
 
+}
+#section-bottom {
+  background-color: rgb(184, 176, 141);
 
+}
 
+p {
+	color: White;
+}
+li{
+  background-color: rgb(40, 56, 69);
+}
 
 .colour-pallet{
   background-color: rgb(32, 44, 57);
