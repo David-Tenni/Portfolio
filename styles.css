@@ -15,14 +15,17 @@ section{
 }
 #section-top {
   background-color: rgb(242, 212, 146);
+  height: 200px;
 
 }
 #section-mid {
   background-color: rgb(40, 56, 69);
+  height: 300px;
 
 }
 #section-bottom {
   background-color: rgb(184, 176, 141);
+  height: 100px;
 
 }
 
