@@ -10,24 +10,7 @@ color: rgb(242, 212, 146);
 .info-title{
   color: rgb(255, 255, 255);
 }
-section{
-  height: 450px;
-}
-#section-top {
-  background-color: rgb(255, 255, 255);
-  height: 250px;
 
-}
-#section-mid {
-  background-color: rgb(255, 255, 255);
-  height: 350px;
-
-}
-#section-bottom {
-  background-color: rgb(0, 0, 0);
-  height: 100px;
-
-}
 
 p {
 }
@@ -42,4 +25,13 @@ li{
   background-color: rgb(242, 212, 146);
   background-color: rgb(242, 149, 89);
 
+}
+.series-section {
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.short-field {
+	width: 40px;
 }
