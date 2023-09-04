@@ -24,6 +24,26 @@ const snwStart = document.getElementById("snw-start-season");
 const snwEnd = document.getElementById("snw-end-season");
 const snwCheck = document.getElementById("snw-check");
 
+const picStart = document.getElementById("pic-start-season");
+const picEnd = document.getElementById("pic-end-season");
+const picCheck = document.getElementById("pic-check");
+
+const stdStart = document.getElementById("std-start-season");
+const stdEnd = document.getElementById("std-end-season");
+const stdCheck = document.getElementById("std-check");
+
+const lwdStart = document.getElementById("lwd-start-season");
+const lwdEnd = document.getElementById("lwd-end-season");
+const lwdCheck = document.getElementById("lwd-check");
+
+const tasStart = document.getElementById("tas-start-season");
+const tasEnd = document.getElementById("tas-end-season");
+const tasCheck = document.getElementById("tas-check");
+
+const proStart = document.getElementById("pro-start-season");
+const proEnd = document.getElementById("pro-end-season");
+const proCheck = document.getElementById("pro-check");
+
 let selectedEpisodes = [];
 
 function getEntEpisodes() {
@@ -74,7 +94,49 @@ function getDs9Episodes() {
           }
         });
       }
+
+      function getPicEpisodes() {
+        picEpisodes.forEach((episode) => {
+          if (episode.season >= picStart.value && episode.season <= picEnd.value) {
+            selectedEpisodes.push(episode);
+          }
+        });
+      }
+    
+      function getStdEpisodes() {
+        stdEpisodes.forEach((episode) => {
+          if (episode.season >= stdStart.value && episode.season <= stdEnd.value) {
+            selectedEpisodes.push(episode);
+          }
+        });
+      }
+    
+      function getLwdEpisodes() {
+        lwdEpisodes.forEach((episode) => {
+          if (episode.season >= lwdStart.value && episode.season <= lwdEnd.value) {
+            selectedEpisodes.push(episode);
+          }
+        });
+      }
+    
+      function getTasEpisodes() {
+        tasEpisodes.forEach((episode) => {
+          if (episode.season >= tasStart.value && episode.season <= tasEnd.value) {
+            selectedEpisodes.push(episode);
+          }
+        });
+      }
+    
+      function getProEpisodes() {
+        proEpisodes.forEach((episode) => {
+          if (episode.season >= proStart.value && episode.season <= proEnd.value) {
+            selectedEpisodes.push(episode);
+          }
+        });
+      }
   
+
+
 function displayValues(episode) {
   document.getElementById(
     "output"
@@ -94,7 +156,12 @@ function main() {
   let includeDs9 = ds9Check.checked;
   let includeVoy = voyCheck.checked;
   let includeSnw = snwCheck.checked;
-  console.log(includeEnt);
+  let includePic = picCheck.checked;
+  let includeStd = stdCheck.checked;
+  let includeLwd = lwdCheck.checked;
+  let includeTas = tasCheck.checked;
+  let includePro = proCheck.checked;
+  
   if (includeEnt) {
     getEntEpisodes();
   }
@@ -113,8 +180,23 @@ function main() {
   if (includeSnw) {
     getSnwEpisodes();
   }
+  if (includePic) {
+    getPicEpisodes();
+  }
+  if (includeStd) {
+    getStdEpisodes();
+  }
+  if (includeLwd) {
+    getLwdEpisodes();
+  }
+  if (includeTas) {
+    getTasEpisodes();
+  }
+  if (includePro) {
+    getProEpisodes();
+  }
 
-  if (!includeTos && !includeEnt && !includeTng && !includeDs9 && !includeVoy && !includeSnw) {
+  if (!includeTos && !includeEnt && !includeTng && !includeDs9 && !includeVoy && !includeSnw && !includePic && !includeStd && !includeLwd && !includeTas && !includePro) {
     displayError();
   }else{
     displayValues(selectedEpisodes[Math.floor(Math.random() * selectedEpisodes.length)]);
