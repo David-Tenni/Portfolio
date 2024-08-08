@@ -1,112 +1,88 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f5f5f5;
-  color: #333;
+  font-family: 'Nunito', sans-serif;
+  background-color: #f8f9fa;
 }
 
-header {
+.header {
   background-color: rgb(0, 174, 243);
   color: white;
+  padding: 20px 0;
   text-align: center;
-  padding: 1em 0;
-}
-
-h1 {
-  margin: 0;
-  font-size: 2.5em;
 }
 
 .hero {
+  background-color: #f1f1f1;
+  padding: 50px 0;
   text-align: center;
-  padding: 2em 1em;
-  background-color: white;
 }
 
 .hero img {
-  max-width: 100%;
-  width: 600px;
-  height: 400px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
 }
 
 .hero h2 {
-  font-size: 2em;
-  margin: 0.5em 0;
   color: rgb(0, 174, 243);
+  margin-top: 20px;
 }
 
 .hero p {
-  font-size: 1.2em;
-  margin: 0.5em 0;
+  font-size: 1.2rem;
 }
 
-.button {
-  display: inline-block;
-  padding: 0.5em 1em;
-  background-color: rgb(0, 174, 243);
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  margin-top: 1em;
+.about, .issues {
+  padding: 50px 0;
+  text-align: center;
 }
 
-section {
-  padding: 2em 1em;
-  margin: 1em 0;
-  background-color: white;
-}
-
-h2 {
+.about h2, .issues h2 {
   color: rgb(0, 174, 243);
 }
 
-ul {
+.issues-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.issues-list {
   list-style-type: none;
   padding: 0;
+  margin: 0;
+  text-align: left;
 }
 
-li {
-  margin: 0.5em 0;
+.issues-list li {
+  position: relative;
+  padding-left: 1.5em;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-  max-width: 400px;
-  margin: 0 auto;
+.issues-list li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: rgb(0, 174, 243);
+  font-size: 1.2em;
+  line-height: 1em;
 }
 
-label {
-  margin: 0.5em 0 0.2em;
-}
-
-input[type="text"], input[type="email"] {
-  padding: 0.5em;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-input[type="submit"] {
-  margin-top: 1em;
-  padding: 0.5em;
+.contact-info {
   background-color: rgb(0, 174, 243);
   color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.contact-info a {
+  color: white;
 }
 
 footer {
-  text-align: center;
-  padding: 1em 0;
-  background-color: #333;
+  background-color: #343a40;
   color: white;
-}
-
-footer a {
-  color: rgb(0, 174, 243);
-  text-decoration: none;
-  margin: 0 0.5em;
+  padding: 20px 0;
+  text-align: center;
 }
