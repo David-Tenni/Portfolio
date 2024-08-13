@@ -48,6 +48,8 @@ body {
   padding: 80px 0;
   text-align: left; /* Align text to the left */
   position: relative;
+  width: 100%;
+  margin: 0;
 }
 
 .hero-content {
@@ -58,13 +60,12 @@ body {
   margin-left: 25%; /* Move the content 25% to the left */
 }
 
-
-
-#gday{
+#gday {
   font-family: 'AboveGround', sans-serif;
   font-size: 2.5rem;
   margin-top: 0;
 }
+
 .hero p {
   font-size: 1.2rem;
 }
@@ -72,6 +73,8 @@ body {
 .about, .issues {
   padding: 50px 0;
   text-align: center;
+  width: 100%; /* Make sure the section spans the full width */
+  margin: 0; /* Remove any automatic margins */
 }
 
 .about h2, .issues h3 {
@@ -83,6 +86,7 @@ body {
 
 .issues .row {
   justify-content: center;
+  margin: 0; /* Remove gap between rows */
 }
 
 .issues div {
@@ -101,4 +105,51 @@ footer {
 
 footer p {
   margin: 0;
+}
+
+.header {
+  background-color: #0056b3;
+  color: white;
+  padding: 10px 0;
+}
+
+.header h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.btn-primary {
+  background-color: #f8f9fa;
+  color: #0056b3;
+  border: none;
+  padding: 8px 15px;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  background-color: #ffffff;
+  color: #0056b3;
+}
+
+#protecting-community {
+  background-color: #f8f9fa;
+  width: 100%;
+}
+
+#key-initiatives {
+  background-color: #ffffff;
+  width: 100%;
 }
