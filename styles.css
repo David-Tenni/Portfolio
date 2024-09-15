@@ -40,7 +40,7 @@ body {
 }
 
 .hero {
-  background-image: url('3.jpg'); /* Replace '1.jpg' with your image URL */
+  background-image: url('3Comp.jpg'); /* Replace '1.jpg' with your image URL */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 30%; /* Adjust this to control which part of the image is displayed */
