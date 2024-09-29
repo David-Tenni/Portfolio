@@ -1,3 +1,115 @@
+/* General page styling */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Header styling */
+.header {
+  background-color: #0056b3;
+  color: white;
+  padding: 10px 20px; /* Adding padding to move the content away from the edges */
+}
+a.nav-link.active {
+  background-color: #004080; /* Change background color */
+  color: #fff; /* Change text color */
+  font-weight: bold; /* Optionally make the text bold */
+  text-decoration: underline; /* Optional underline */
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px; /* Limit the width of the content */
+  margin: 0 auto; /* Center the content */
+}
+
+/* Navigation link styling */
+.header .nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  margin-left: 15px;
+}
+
+.header .nav-link:first-child {
+  margin-left: 0;
+}
+
+.header .nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Social icons */
+.header .social-icons a {
+  color: white;
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.header .social-icons a:hover {
+  text-decoration: none;
+}
+.header .nav-link:first-child {
+  margin-left: 0; /* Remove left margin from first link */
+}
+
+.header .nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Button styling */
+.btn-primary {
+  background-color: #0069d9;
+  border-color: #0062cc;
+  font-size: 1rem;
+}
+
+/* Social icons */
+.header .social-icons a {
+  color: white;
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.header .social-icons a:hover {
+  text-decoration: none;
+}
+
+/* Hero section */
+.hero {
+  background-image: url('3Comp.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 30%;
+  color: white;
+  padding: 150px 0;
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Sections styling */
+.about, .issues {
+  padding: 50px 0;
+  text-align: center;
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: #f8f9fa;
