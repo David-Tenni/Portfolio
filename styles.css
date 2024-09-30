@@ -24,6 +24,9 @@ a.nav-link.active {
   max-width: 1200px; /* Limit the width of the content */
   margin: 0 auto; /* Center the content */
 }
+html {
+  scroll-behavior: smooth;
+}
 
 /* Navigation link styling */
 .header .nav-link {
@@ -301,3 +304,24 @@ footer p {
     background-color: #f2f2f2;
     font-weight: bold;
   }
+/* Styling for h2 headings */
+.about h2 {
+  color: #0056b3;
+  font-family: 'Nunito', sans-serif;
+  font-size: 2rem;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+/* Styling for the unordered list in Key Initiatives */
+#key-initiatives ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  text-align: left;
+  display: inline-block;
+}
+
+#key-initiatives li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
