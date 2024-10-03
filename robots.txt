@@ -1,3 +1,2 @@
-# Disallow all web crawlers from accessing any part of the site
 User-agent: *
-Disallow: /
+Disallow: /admin/
