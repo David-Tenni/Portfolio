@@ -1,0 +1,384 @@
+/* General page styling */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Header styling */
+.header {
+  background-color: #0056b3;
+  color: white;
+  padding: 10px 20px; /* Adding padding to move the content away from the edges */
+}
+a.nav-link.active {
+  background-color: #004080; /* Change background color */
+  color: #fff; /* Change text color */
+  font-weight: bold; /* Optionally make the text bold */
+  text-decoration: underline; /* Optional underline */
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px; /* Limit the width of the content */
+  margin: 0 auto; /* Center the content */
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navigation link styling */
+.header .nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  margin-left: 15px;
+}
+
+.header .nav-link:first-child {
+  margin-left: 0;
+}
+
+.header .nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Social icons */
+.header .social-icons a {
+  color: white;
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.header .social-icons a:hover {
+  text-decoration: none;
+}
+.header .nav-link:first-child {
+  margin-left: 0; /* Remove left margin from first link */
+}
+
+.header .nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Button styling */
+.btn-primary {
+  background-color: #0069d9;
+  border-color: #0062cc;
+  font-size: 1rem;
+}
+
+/* Social icons */
+.header .social-icons a {
+  color: white;
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.header .social-icons a:hover {
+  text-decoration: none;
+}
+
+/* Hero section */
+.hero {
+  background-image: url('3Comp.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 30%;
+  color: white;
+  padding: 150px 0;
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Sections styling */
+.about, .issues {
+  padding: 50px 0;
+  text-align: center;
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.header {
+  background-color: #0056b3;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.header h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.5rem;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.header nav {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.btn-primary {
+  background-color: #0069d9;
+  border-color: #0062cc;
+  font-size: 1rem;
+}
+
+.hero {
+  background-image: url('3Comp.jpg'); /* Replace '1.jpg' with your image URL */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 30%; /* Adjust this to control which part of the image is displayed */
+  color: white;
+  padding: 150px 0; /* Adjust the padding as needed */
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-content h1 {
+  font-size: 3rem; /* Adjust this value for your needs */
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Add a shadow for better readability */
+}
+
+.hero-content .nav-link {
+  color: white;
+  font-size: 1.25rem;
+  text-decoration: none;
+  margin-top: 20px;
+  display: inline-block;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Add a shadow for better readability */
+}
+
+#gday {
+  font-family: 'AboveGround', sans-serif;
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+.about, .issues {
+  padding: 50px 0;
+  text-align: center;
+  width: 100%; /* Make sure the section spans the full width */
+  margin: 0; /* Remove any automatic margins */
+}
+
+.about h2, .issues h3 {
+  color: #0056b3;
+  font-family: 'Nunito', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.issues .row {
+  justify-content: center;
+  margin: 0; /* Remove gap between rows */
+}
+
+.issues div {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+.header {
+  background-color: #0056b3;
+  color: white;
+  padding: 10px 0;
+}
+
+.header h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.btn-primary {
+  background-color: #f8f9fa;
+  color: #0056b3;
+  border: none;
+  padding: 8px 15px;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  background-color: #ffffff;
+  color: #0056b3;
+}
+
+
+
+#key-initiatives {
+  background-color: #f8f9fa;
+  width: 100%;
+}
+/* Events Stuff */
+#protecting-community {
+  background-color: #ffffff;
+  width: 100%;
+}
+
+  #events {
+    background-color: #ffffff;
+    width: 100%;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+/* Styling for h2 headings */
+.about h2 {
+  color: #0056b3;
+  font-family: 'Nunito', sans-serif;
+  font-size: 2rem;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+/* Styling for the unordered list in Key Initiatives */
+#key-initiatives ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  text-align: left;
+  display: inline-block;
+}
+
+#key-initiatives li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.vote-box {
+  background-color: white;
+  border: 3px solid #000;
+  padding: 20px;
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: left;
+  font-family: Arial, sans-serif;
+}
+
+.vote-box h2 {
+  background-color: #0056b3;
+  color: white;
+  padding: 10px;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.vote-box p {
+  text-align: center;
+  font-size: 1rem;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.candidates {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.candidate {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid #000;
+  background-color: #f1f1f1;
+}
+
+.candidate .number {
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: white;
+  padding: 5px 10px;
+  border: 1px solid black;
+  margin-right: 10px;
+}
+
+.candidate .name {
+  font-size: 1.2rem;
+}
+
+.candidate.selected {
+  background-color: #d1e7dd; /* Highlight for selected candidate */
+  border-color: #198754; /* Optional green highlight */
+}
